@@ -1,0 +1,21 @@
+{
+  "name": "hometask-3",
+  "version": "1.0.0",
+  "description": "Simple notes API",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "author": "Serhii Tyshchenko",
+  "license": "ISC"
+}
